@@ -2,7 +2,7 @@ import pandas as pd
 import re
 import os
 
-class ConvertChar:
+class ConvertToChar:
 	def __init__(self, placa):
 		self.placa = placa
 		i = int(placa[4])

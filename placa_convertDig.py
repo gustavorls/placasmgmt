@@ -2,7 +2,7 @@ import pandas as pd
 import re
 import os
 
-class ConvertDig:
+class ConvertToDig:
 	def __init__(self, placa):
 		self.placa = placa
 		i = str(placa[4])
